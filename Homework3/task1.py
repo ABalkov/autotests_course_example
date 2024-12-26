@@ -1,16 +1,25 @@
-# This is a sample Python script.
+# Напишите функцию modification(lst), которая принимает список и меняет местами его первый и последний элемент.
+# В исходном списке минимум 2 элемента.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def modification(lst):
+    lst[0], lst[len(lst) -1] = lst[len(lst) -1], lst[0]
+    return lst
+
+# Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+data = [
+    [1, 2, 3],
+    [1, 2, 3, 4, 5],
+    ['н', 'л', 'о', 'с']
+]
+
+test_data = [
+    [3, 2, 1], [5, 2, 3, 4, 1], ['с', 'л', 'о', 'н']
+]
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+for i, d in enumerate(data):
+    assert modification(d) == test_data[i], f'С набором {d} есть ошибка, не проходит проверку'
+    print(f'Тестовый набор {d} прошёл проверку')
+print('Всё ок')
