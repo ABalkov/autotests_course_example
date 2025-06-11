@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26b29d18-716b-48af-a659-6c80cfb7707c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 5/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework 5/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework 5/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework 5/task_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.task_1">
+  <component name="RunManager" selected="Python.task_4">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="autotess_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +83,7 @@
       <method v="2" />
     </configuration>
     <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotess_course" />
+      <module name="autotest_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -102,7 +104,7 @@
       <method v="2" />
     </configuration>
     <configuration name="task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotess_course" />
+      <module name="autotest_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -123,7 +125,7 @@
       <method v="2" />
     </configuration>
     <configuration name="task_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotess_course" />
+      <module name="autotest_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -227,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task_1" />
-        <item itemvalue="Python.test_with_star" />
         <item itemvalue="Python.task_4" />
         <item itemvalue="Python.task_3" />
         <item itemvalue="Python.task_2" />
+        <item itemvalue="Python.task_1" />
+        <item itemvalue="Python.test_with_star" />
       </list>
     </recent_temporary>
   </component>
